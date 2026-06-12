@@ -7,8 +7,8 @@
 #include <c_header_helper.hint>
 #include <sc_data_policy/speed_charm_policy.h>
 
-#include <prog_c/std_ext/ext_strs.h>
-#include <prog_c/sci_loader/speed_charm_image.h>
+#include <std_ext/ext_strs.h>
+#include <sci_loader/speed_charm_image.h>
 #define DEBUG_VERSION                             1
 #define RELEASE_VERSION                           0
 
