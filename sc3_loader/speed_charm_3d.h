@@ -1,11 +1,11 @@
 #ifndef _SC3_H_
 #define _SC3_H_
 #include <ggmath/sgg_vec.h>
-#include <prog_c/std_ext/ext_alloc.h>
-#include <prog_c/std_ext/ext_os_strs.h>
-#include "prog_c/std_ext/ext_rand.h"
+#include <std_ext/ext_alloc.h>
+#include <std_ext/ext_os_strs.h>
+#include "std_ext/ext_rand.h"
 #include <c_header_helper.hint>
-#include <prog_c/sc_data_policy/speed_charm_policy.h>
+#include <sc_data_policy/speed_charm_policy.h>
 
 #include <prog_c/std_ext/ext_strs.h>
 #include <prog_c/sci_loader/speed_charm_image.h>
@@ -266,7 +266,7 @@ If the parent world position is 5 and the relative position is -1, then:
 
 5 + (-1) = 4
 
-This reconstructs the childÅfs world position.
+This reconstructs the child¬Åfs world position.
 
 If the child has moved and its relative position becomes -2, then:
 
